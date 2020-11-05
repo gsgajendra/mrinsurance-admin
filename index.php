@@ -25,9 +25,10 @@
 </head>
 
 <body class="skin-josh">
-	
+	<?php include_once('include/header.html'); ?>
 	<div class="wrapper row-offcanvas row-offcanvas-left">
-    	<!-- Right side column. Contains the navbar and content of the page -->
+        <?php include_once('include/side-bar.html'); ?>
+		<!-- Right side column. Contains the navbar and content of the page -->
         <aside class="right-side">
             <div class="alert alert-success alert-dismissable margin5">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
