@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Rating Engine | Admin</title>
+    <title>Rating | Admin</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,29 +16,29 @@
     <link href="css/app.css" rel="stylesheet" type="text/css" />
     <!-- end of global css -->
     <!--page level css -->
-	<link href="vendors/jasny-bootstrap/css/jasny-bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="vendors/jasny-bootstrap/css/jasny-bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/pages/tables.css" rel="stylesheet" type="text/css" />
-	 <link href="css/pages/formelements.css" rel="stylesheet" />
+     <link href="css/pages/formelements.css" rel="stylesheet" />
     <!-- end of page level css-->
 </head>
 
 <body class="skin-josh">
-	<?php include_once('include/header.html'); ?>
-	 <div class="wrapper row-offcanvas row-offcanvas-left">
+    <?php include_once('include/header.html'); ?>
+     <div class="wrapper row-offcanvas row-offcanvas-left">
         <?php include_once('include/side-bar.html'); ?>
-		<!-- Right side column. Contains the navbar and content of the page -->
+        <!-- Right side column. Contains the navbar and content of the page -->
         <aside class="right-side">
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <!--section starts-->
-                <h1>Rating Engine</h1>
+                <h1>Rating</h1>
                 <ol class="breadcrumb">
                     <li>
                         <a href="index.php">
                             <i class="livicon" data-name="home" data-size="14" data-loop="true"></i> Dashboard
                         </a>
                     </li>
-                    <li class="active">Rating Engine</li>
+                    <li class="active">Rating</li>
                 </ol>
             </section>
             <!--section ends-->
@@ -49,26 +49,88 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="row Nopadding">
-									<div class="col-md-12">
-										<h3 class="caption NoMar">
-												<span>Add Rating Engine</span>
-										</h3>
-									</div>
-								</div>
+                                    <div class="col-md-12">
+                                        <h3 class="caption NoMar">
+                                                <span>Add Rating</span>
+                                        </h3>
+                                    </div>
+                                </div>
                             </div>
                             <div class="portlet-body flip-scroll">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3" style="display: block;">
-										<div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Name</label>
-											<input type="text" class="form-control" id="input-text-1" placeholder="Enter Name">
-										</div>
-										<hr/>
-										<div class="form-group ui-draggable-handle text-center" style="position: static;">
-											<button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
-										</div>
-									</div>
-								</div>
-							</div>
+                                <div class="row">
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Category</label>
+                                            <select class="form-control">
+                                                <option>Category 1</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Sum insured range</label>
+                                            <input type="text" class="form-control" id="input-text-1">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Body type</label>
+                                            <select class="form-control">
+                                                <option>Type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Manufacturing Country</label>
+                                            <select class="form-control">
+                                                <option>Japan</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Vehicle Age</label>
+                                            <input type="text" class="form-control" / placeholder="Vehicle Age">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Driver age</label>
+                                            <input type="text" class="form-control" / placeholder="Driver age">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">UAE license age</label>
+                                            <input type="text" class="form-control" / placeholder="UAE license age">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Base rate</label>
+                                            <input type="text" class="form-control" / placeholder="Base rate">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Nationality </label>
+                                            <select class="form-control">
+                                                <option>UAE</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">No claims</label>
+                                            <input type="text" class="form-control" / placeholder="Driver age">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Renewal</label>
+                                            <input type="text" class="form-control" / placeholder="Driver age">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="display: block;">
+                                        <hr/>
+                                        <div class="form-group ui-draggable-handle text-center" style="position: static;">
+                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- END SAMPLE TABLE PORTLET-->
                     </div>
@@ -85,9 +147,9 @@
     <!-- global js -->
     <script src="js/app.js" type="text/javascript"></script>
     <!-- end of global js -->
-	<script type="text/javascript" src="vendors/jasny-bootstrap/js/jasny-bootstrap.js"></script>
-	<script src="vendors/autogrow/autogrow.min.js" type="text/javascript"></script>
-	<script src="vendors/bootstrap-maxlength/js/bootstrap-maxlength.js" type="text/javascript"></script>
+    <script type="text/javascript" src="vendors/jasny-bootstrap/js/jasny-bootstrap.js"></script>
+    <script src="vendors/autogrow/autogrow.min.js" type="text/javascript"></script>
+    <script src="vendors/bootstrap-maxlength/js/bootstrap-maxlength.js" type="text/javascript"></script>
     <script src="vendors/card/lib/js/jquery.card.js" type="text/javascript"></script>
     <script src="js/pages/formelements.js" type="text/javascript"></script>
 </body>
