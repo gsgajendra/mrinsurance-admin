@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>User | Admin</title>
+    <title>Setting | Admin</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,14 +31,14 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <!--section starts-->
-                <h1>User</h1>
+                <h1>Setting</h1>
                 <ol class="breadcrumb">
                     <li>
                         <a href="index.php">
                             <i class="livicon" data-name="home" data-size="14" data-loop="true"></i> Dashboard
                         </a>
                     </li>
-                    <li class="active">User</li>
+                    <li class="active">Setting</li>
                 </ol>
             </section>
             <!--section ends-->
@@ -51,50 +51,39 @@
                                 <div class="row Nopadding">
 									<div class="col-md-12">
 										<h3 class="caption NoMar">
-												<span>Add User</span>
+												<span>Account Setting</span>
 										</h3>
 									</div>
 								</div>
                             </div>
                             <div class="portlet-body flip-scroll">
                                 <div class="row">
+                                    <div class="col-md-12">
+                                        <h4 class="text-warning">Profile
+                                            <br>
+                                            <small class="text-warning"><em>(Update your profile account here
+)</em></small>
+                                        </h4>
+
+                                    </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Username <span class="text-danger">*</span></label>
-                                            <input type="text" class="form-control" name="" placeholder="Username">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">First Name</label>
+                                            <input type="text" class="form-control" name="" placeholder="First Name">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Email <span class="text-danger">*</span></label>
-                                            <input type="email" class="form-control" id="input-text-1" placeholder="Email">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Last Name</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Last Name">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Password <span class="text-danger">*</span></label>
-                                            <input type="password" class="form-control" name="" placeholder="Password">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Email</label>
+                                            <input type="email" class="form-control" name="" placeholder="Email">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Confirm Password <span class="text-danger">*</span></label>
-                                            <input type="password" class="form-control" name="" placeholder="Confirm Password">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Mobile no</label>
-                                            <input type="text" class="form-control" / placeholder="Mobile no">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Role <span class="text-danger">*</span></label>
-                                            <select class="form-control">
-                                                <option>Editor</option>
-                                                <option>Admin</option>
-                                                <option>User</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Phone <span class="text-danger">*</span></label>
-                                            <input type="text" class="form-control" / placeholder="Phone">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Phone number</label>
+                                            <input type="text" class="form-control" name="" placeholder="Phone number">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -112,9 +101,42 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12" style="display: block;">
+                                        <div class="form-group ui-draggable-handle text-center" style="position: static;">
+                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Save Changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                          <hr/>
+                                        <h4 class="text-warning">Security
+                                            <br>
+                                            <small class="text-warning"><em>
+                                                Change your account password here
+                                            </em></small>
+                                        </h4>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Current password</label>
+                                            <input type="password" class="form-control" name="" placeholder="Current password">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">New password</label>
+                                            <input type="password" class="form-control" name="" placeholder="New password">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Confirm password</label>
+                                            <input type="password" class="form-control" / placeholder="Confirm password">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="display: block;">
                                         <hr/>
                                         <div class="form-group ui-draggable-handle text-center" style="position: static;">
-                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
+                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Save Changes</button>
                                         </div>
                                     </div>
                                 </div>

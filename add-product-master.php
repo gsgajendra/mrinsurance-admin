@@ -57,18 +57,122 @@
 								</div>
                             </div>
                             <div class="portlet-body flip-scroll">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3" style="display: block;">
-										<div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Name</label>
-											<input type="text" class="form-control" id="input-text-1" placeholder="Enter Name">
-										</div>
-										<hr/>
-										<div class="form-group ui-draggable-handle text-center" style="position: static;">
-											<button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
-										</div>
-									</div>
-								</div>
-							</div>
+                                <div class="row">
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Product Name</label>
+                                            <input type="text" class="form-control" name="" placeholder="Product Name" value="Motor Insurance">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Category</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Category" value="Third Party Liability - TPL">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Sub Category</label>
+                                            <input type="text" class="form-control" name="" placeholder="Sub Category" value="Standard">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Rating</label>
+                                            <input type="text" class="form-control" name="" placeholder="Rating">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Terms & Condition</label>
+                                            <textarea class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">FAQ</label>
+                                            <textarea class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4 class="text-warning">Basic Features</h4>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Feature</label>
+                                            <select class="form-control">
+                                                <option>Motor TPL Cover - Car Only</option>
+                                                <option>PAB Driver - TP</option>
+                                                <option>PAB Passenger - TP</option>
+                                                <option>Personal Accident Benefits – Driver</option>
+                                                <option>Personal Accident Benefits – Passengers</option>
+                                                <option>Rent A Car - TP</option>
+                                                <option>Third Party Property Damage - Other Than Car</option>
+                                                <option>Ambulance Service Cover</option>
+                                                <option>Battery Boost Service</option>
+                                                <option>Emergency Fuel Service</option>
+                                                <option>Lock Out Service</option>
+                                                <option>Car Registration Service</option>
+                                                <option>Natural Calamity Cover</option>
+                                                <option>24/7 Roadside Service</option>
+                                                <option>EVG Charge</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Type</label>
+                                            <select class="form-control">
+                                                <option>Cover</option>
+                                                <option>Extra (Optional)</option>
+                                                <option>Benefits</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Premium</label>
+                                            <input type="text" class="form-control" / placeholder="Premium">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Discount Price</label>
+                                            <input type="text" class="form-control" / placeholder="Discount Price">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4 class="text-warning">Addon Features</h4>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Feature</label>
+                                            <select class="form-control">
+                                                <option>Orange Card</option>
+                                                <option>Privilege Card</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Type</label>
+                                            <select class="form-control">
+                                                <option>Benefits</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Premium</label>
+                                            <input type="text" class="form-control" / placeholder="Premium">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Discount Price</label>
+                                            <input type="text" class="form-control" / placeholder="Discount Price">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="display: block;">
+                                        <hr/>
+                                        <div class="form-group ui-draggable-handle text-center" style="position: static;">
+                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- END SAMPLE TABLE PORTLET-->
                     </div>
