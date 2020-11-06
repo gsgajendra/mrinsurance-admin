@@ -57,18 +57,42 @@
 								</div>
                             </div>
                             <div class="portlet-body flip-scroll">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3" style="display: block;">
-										<div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Promo Name</label>
-											<input type="text" class="form-control" id="input-text-1" placeholder="Promo Name">
-										</div>
-										<hr/>
-										<div class="form-group ui-draggable-handle text-center" style="position: static;">
-											<button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
-										</div>
-									</div>
-								</div>
-							</div>
+                                <div class="row">
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Promo Name</label>
+                                            <input type="text" class="form-control" name="" placeholder="Promo Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Promo Code</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Promo Code">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Discount</label>
+                                            <input type="text" name="" class="form-control" placeholder="Discount">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Min Saving</label>
+                                            <input type="text" name="" class="form-control" placeholder="Min Saving">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Premia code </label>
+                                            <input type="text" class="form-control" / placeholder="Premia code">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="display: block;">
+                                        <hr/>
+                                        <div class="form-group ui-draggable-handle text-center" style="position: static;">
+                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- END SAMPLE TABLE PORTLET-->
                     </div>

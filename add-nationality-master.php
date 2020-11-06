@@ -57,18 +57,32 @@
 								</div>
                             </div>
                             <div class="portlet-body flip-scroll">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3" style="display: block;">
-										<div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Nationality Name</label>
-											<input type="text" class="form-control" id="input-text-1" placeholder="Nationality Name">
-										</div>
-										<hr/>
-										<div class="form-group ui-draggable-handle text-center" style="position: static;">
-											<button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
-										</div>
-									</div>
-								</div>
-							</div>
+                                <div class="row">
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Nationality Name</label>
+                                            <input type="text" class="form-control" name="" placeholder="Nationality Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Country</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Country">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Premia Code</label>
+                                            <input type="text" class="form-control" name="" placeholder="Premia Code">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="display: block;">
+                                        <hr/>
+                                        <div class="form-group ui-draggable-handle text-center" style="position: static;">
+                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- END SAMPLE TABLE PORTLET-->
                     </div>

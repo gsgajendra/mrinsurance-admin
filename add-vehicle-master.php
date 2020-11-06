@@ -57,18 +57,47 @@
 								</div>
                             </div>
                             <div class="portlet-body flip-scroll">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3" style="display: block;">
-										<div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Make</label>
-											<input type="text" class="form-control" id="input-text-1" placeholder="Make">
-										</div>
-										<hr/>
-										<div class="form-group ui-draggable-handle text-center" style="position: static;">
-											<button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
-										</div>
-									</div>
-								</div>
-							</div>
+                                <div class="row">
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Make</label>
+                                            <input type="text" class="form-control" name="" placeholder="Car Make">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Model</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Car Model">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Type</label>
+                                            <input type="text" class="form-control" name="" placeholder="Car Type">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Cylinders</label>
+                                            <input type="text" class="form-control" name="" placeholder="Cylinders">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Category</label>
+                                            <input type="text" class="form-control" / placeholder="Category">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car price</label>
+                                            <input type="text" class="form-control" / placeholder="Car price">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="display: block;">
+                                        <hr/>
+                                        <div class="form-group ui-draggable-handle text-center" style="position: static;">
+                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- END SAMPLE TABLE PORTLET-->
                     </div>

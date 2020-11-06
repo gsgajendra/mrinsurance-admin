@@ -57,18 +57,34 @@
 								</div>
                             </div>
                             <div class="portlet-body flip-scroll">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3" style="display: block;">
-										<div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Vehicle Category</label>
-											<input type="text" class="form-control" id="input-text-1" placeholder="Vehicle Category">
-										</div>
-										<hr/>
-										<div class="form-group ui-draggable-handle text-center" style="position: static;">
-											<button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
-										</div>
-									</div>
-								</div>
-							</div>
+                                <div class="row">
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Category</label>
+                                            <select class="form-control">
+                                                <option>Category 1</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Price</label>
+                                            <input type="text" class="form-control" id="input-text-1">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Excess Amount</label>
+                                            <input type="text" class="form-control" id="input-text-1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="display: block;">
+                                        <hr/>
+                                        <div class="form-group ui-draggable-handle text-center" style="position: static;">
+                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- END SAMPLE TABLE PORTLET-->
                     </div>

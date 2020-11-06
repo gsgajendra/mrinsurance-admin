@@ -57,18 +57,68 @@
 								</div>
                             </div>
                             <div class="portlet-body flip-scroll">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3" style="display: block;">
-										<div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">User Name</label>
-											<input type="text" class="form-control" id="input-text-1" placeholder="User Name">
-										</div>
-										<hr/>
-										<div class="form-group ui-draggable-handle text-center" style="position: static;">
-											<button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
-										</div>
-									</div>
-								</div>
-							</div>
+                                <div class="row">
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Username <span class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" name="" placeholder="Username">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Email <span class="text-danger">*</span></label>
+                                            <input type="email" class="form-control" id="input-text-1" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Password <span class="text-danger">*</span></label>
+                                            <input type="password" class="form-control" name="" placeholder="Password">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Confirm Password <span class="text-danger">*</span></label>
+                                            <input type="password" class="form-control" name="" placeholder="Confirm Password">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Mobile no</label>
+                                            <input type="text" class="form-control" / placeholder="Mobile no">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Role <span class="text-danger">*</span></label>
+                                            <select class="form-control">
+                                                <option>Editor</option>
+                                                <option>Admin</option>
+                                                <option>User</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Phone <span class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" / placeholder="Phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="fileinput fileinput-new" data-provides="fileinput">
+                                        <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 200px; height: 150px;"></div>
+                                        <div>
+                                            <span class="btn btn-default btn-file">
+                                                <span class="fileinput-new">Select image</span>
+                                                <span class="fileinput-exists">Change</span>
+                                                <input type="file" name="..."></span>
+                                            <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="display: block;">
+                                        <hr/>
+                                        <div class="form-group ui-draggable-handle text-center" style="position: static;">
+                                            <button class="btn btn-success btn-lg"><i class="fa fa-check-circle"></i> Insert</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- END SAMPLE TABLE PORTLET-->
                     </div>
