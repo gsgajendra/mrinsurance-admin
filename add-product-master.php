@@ -64,13 +64,17 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Category</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Category" value="Third Party Liability - TPL">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Motor Product Category</label>
+                                            <select name="category" id="" class="form-control">
+                                                <option value="">Third Party Liability - TPL</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Sub Category</label>
-                                            <input type="text" class="form-control" name="" placeholder="Sub Category" value="Standard">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Motor Product Sub Category</label>
+                                            <select name="subCategory" id="" class="form-control">
+                                                <option value="">Standard</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">

@@ -60,7 +60,9 @@
                                 <div class="row">
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Make</label>
-                                            <input type="text" class="form-control" name="" placeholder="Car Make">
+                                            <select name="make" id="" class="form-control">
+                                                <option value="">BMW</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
@@ -70,22 +72,28 @@
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Type</label>
-                                            <input type="text" class="form-control" name="" placeholder="Car Type">
+                                            <select name="carType" id="" class="form-control">
+                                                <option value="">Hatchback</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Cylinders</label>
-                                            <input type="text" class="form-control" name="" placeholder="Cylinders">
+                                            <select name="cylinder" id="" class="form-control">
+                                                <option value="">4 Cylinder</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Category</label>
-                                            <input type="text" class="form-control" / placeholder="Category">
+                                            <select name="category" id="" class="form-control">
+                                                <option value="">Category</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car price</label>
-                                            <input type="text" class="form-control" / placeholder="Car price">
+                                            <input type="text" class="form-control" placeholder="Car price">
                                         </div>
                                     </div>
                                 </div>

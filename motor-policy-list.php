@@ -54,7 +54,7 @@
 										</h3>
 									</div>
 									<div class="col-md-6">
-										<a href="add-policy-master.php" class="btn btn-sm btn-success pull-right">Add New</a>
+										<a href="add-motor-policy.php" class="btn btn-sm btn-success pull-right">Add New</a>
 									</div>
 								</div>
                             </div>
@@ -63,22 +63,29 @@
                                     <thead class="flip-content">
                                         <tr>
                                             <th>Sr. No.</th>
+                                            <th>Quote No</th>
+                                            <th>Date</th>
+                                            <th>Insured Name</th>
+                                            <th>Product</th>
                                             <th>Issue Date</th>
-                                            <th class="numeric">From Date</th>
-											<th class="numeric">Premium</th>
-                                            <th class="numeric">Status</th>
-                                            <th class="numeric">Action</th>
+                                            <th>From Date</th>
+                                            <th>Premium</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>1</td>
+                                            <td>abc123</td>
+                                            <td>25/10/2020</td>
+											<td>test test</td>
+                                            <td>Motor Comprehensive</td>
                                             <td>20/10/2020</td>
-                                            <td class="numeric">30/10/2020</td>
-											<td class="numeric">1000</td>
-                                            <td class="numeric">Incomplete, Pending for payment, Rejected, Approved
-											</td>
-                                            <td class="numeric">
+                                            <td>30/10/2020</td>
+                                            <td>1000</td>
+                                            <td>Incomplete / Pending for approval / Rejected / Approved</td>
+                                            <td>
 											<a href="#" class="label label-info">Modity</a>
                                             <a href="#" class="label label-primary">Edit</a>
                                             <a href="#" class="label label-danger">Delete</a>

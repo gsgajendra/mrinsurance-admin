@@ -58,44 +58,117 @@
                             </div>
                             <div class="portlet-body flip-scroll">
 								<div class="row">
-                                    <div class="col-md-12"><h4 class="text-danger">Vehicle Details</h4></div>
+                                    <div class="col-md-12"><h4 class="text-danger">Car Details</h4></div>
 									<div class="col-md-6" style="display: block;">
-										<div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Make</label>
+										<div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Make</label>
                                             <select class="form-control">
-                                                <option>Nissan</option>
+                                                <option>Car make</option>
                                             </select>
 										</div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Model</label>
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Type</label>
                                             <select class="form-control">
-                                                <option>Sunny</option>
+                                                <option>Car type</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Type / Specifications / Cylinders</label>
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Model</label>
                                             <select class="form-control">
-                                                <option>4 Cylinders</option>
+                                                <option>Car model</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Date of First Registration</label>
-                                            <input type="date" class="form-control" id="input-text-1">
+                                        <div class="form-group">
+                                            <label>Is your car brand New?</label>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" class="custom-radio"  value="1" > Yes
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" class="custom-radio" value="0" checked="checked"> No
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Value <small>(20% deduction every year on the original purchase price)</small></label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Car Value" value="20000">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Year of Manufacture</label>
+                                            <select name="yearOfManufacture" id="" class="form-control">
+                                                <option value="">2020</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">When did you last file a claim?</label>
+                                            <select name="lastFileClaim" id="" class="form-control">
+                                                <option value="">2019</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">What's the value of your car?</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="What's the value of your car?">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">UAE License Held for?</label>
+                                            <select name="uaeLicenseHeld" id="" class="form-control">
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">When did you first register your car?</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="When did you first register your car?">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Are you an existing AWNIC customer?</label>
+                                            <div class="form-group">
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" class="custom-radio"  value="1" > Yes
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" class="custom-radio" value="0" checked="checked"> No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-dr]aggable-handle" style="position: static;"><label for="input-text-1">Has your previous policy expired?</label>
+                                            <div class="form-group">
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" class="custom-radio"  value="1" > Yes
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" class="custom-radio" value="0" checked="checked"> No
+                                                    </label>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12"><h4 class="text-danger">Personal Details</h4></div>
+                                    <div class="col-md-12"><h4 class="text-danger">Driver Info</h4></div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Full Name</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Full Name">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">First Name</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Last Name</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Last Name">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
@@ -104,109 +177,81 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Mobile</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Mobile">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Date of Birth</label>
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Date of Birth * (18 yrs to 65yrs)</label>
                                             <input type="date" class="form-control" id="input-text-1" placeholder="Date of Birth">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">UAE Driving License Issue Date</label>
-                                            <input type="date" class="form-control" id="input-text-1" placeholder="Mobile">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Mobile * (+971- 9 digits starting from 5)</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Mobile">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Nationality *</label>
+                                            <select name="nationality" id="" class="form-control">
+                                                <option value="">Indian</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12"><h4 class="text-danger">Additional Details</h4></div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group">
-                                        <label>Made any accident last year?</label>
-                                        <div class="radio">
-                                            <label>
-                                            <input type="radio" class="custom-radio"  value="1" > Yes
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label>
-                                            <input type="radio" class="custom-radio" value="0" checked="checked"> No
-                                            </label>
-                                        </div>
+                                    <div class="col-md-12">
+                                        <h4 class="text-danger">Quote will come with all options</h4>
                                     </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group">
-                                        <label>Can you provide proof?</label>
-                                        <div class="radio">
-                                            <label>
-                                            <input type="radio" class="custom-radio"  value="1" checked="checked"> Yes
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label>
-                                            <input type="radio" class="custom-radio" value="0"> No
-                                            </label>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Quotation – all plans, terms and conditions, frequently asked questions</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="" value="550">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Promo Code</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Promo Code" value="10%">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Additional Loading</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Additional Loading">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Promo Code</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Promo Code" value="10%">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">VAT 5%</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="VAT">
-                                        </div>
-                                    </div>
+                                    <div class="col-md-6"><h5 class="text-success">TPL</h5></div>
+                                    <div class="col-md-6"><h5 class="text-success">Comprehensive</h5></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12"><h4 class="text-danger">Additional Car details</h4></div>
+                                    <div class="col-md-12"><h4 class="text-danger">Additional Car Details</h4></div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Registration No</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Car Registration No">
+                                            <input type="text" class="form-control" placeholder="Car Registration No">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Registration Emirates</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Registration Emirates">
+                                            <select name="registrationEmirate" id="" class="form-control">
+                                                <option value="">UAE</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Chassis No</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Chassis No">
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Chasis no">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Engine No</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Engine No">
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Engine no">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Bank Loan</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Bank Loan">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Color</label>
+                                            <select name="carColor" id="" class="form-control">
+                                                <option value="">White</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group">
+                                            <label>Bank Loan</label>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" class="custom-radio"  value="1" > Yes
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" class="custom-radio" value="0" checked="checked"> No
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Bank List</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Bank List">
+                                            <select name="bankList" id="" class="form-control">
+                                                <option value="">Bank Name</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
@@ -216,12 +261,12 @@
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Car Series</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Car Series">
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Car series">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Start Date of insurance</label>
-                                            <input type="date" class="form-control" id="input-text-1" placeholder="">
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Start Date of insurance">
                                         </div>
                                     </div>
                                 </div>
@@ -250,7 +295,9 @@
 
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Registration Emirates</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Registration Emirates">
+                                            <select name="registrationEmirate" id="" class="form-control">
+                                                <option value="">UAE</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
@@ -258,9 +305,18 @@
                                             <input type="text" class="form-control" id="input-text-1" placeholder="Traffic No (TC no)">
                                         </div>
                                     </div>
-                                    <div class="col-md-12 bg-warning" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Promo Code</label>
-                                            <input type="text" class="form-control" id="input-text-1" placeholder="Promo Code">
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Driving license emirates</label>
+                                            <select name="dlEmirate" id="" class="form-control">
+                                                <option value="">UAE</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Driving license number</label>
+                                            <select name="dlNumber" id="" class="form-control">
+                                                <option value="">UK425</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
