@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Nationality | Admin</title>
+    <title>Type | Admin</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,14 +31,14 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <!--section starts-->
-                <h1>Nationality</h1>
+                <h1>Type</h1>
                 <ol class="breadcrumb">
                     <li>
                         <a href="index.php">
                             <i class="livicon" data-name="home" data-size="14" data-loop="true"></i> Dashboard
                         </a>
                     </li>
-                    <li class="active">Nationality</li>
+                    <li class="active">Type</li>
                 </ol>
             </section>
             <!--section ends-->
@@ -51,7 +51,7 @@
                                 <div class="row Nopadding">
 									<div class="col-md-12">
 										<h3 class="caption NoMar">
-												<span>Add Nationality</span>
+												<span>Add Type</span>
 										</h3>
 									</div>
 								</div>
@@ -59,15 +59,20 @@
                             <div class="portlet-body flip-scroll">
                                 <div class="row">
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Nationality Name</label>
-                                            <input type="text" class="form-control" name="" placeholder="Nationality Name">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Type</label>
+                                            <select name="type" id="" class="form-control">
+                                                <option value="car">Car</option>
+                                                <option value="cylinder">Cylinder</option>
+                                                <option value="make">Make</option>
+                                                <option value="bank">Bank</option>
+                                                <option value="motor-product-category">Motor Product Category</option>
+                                                <option value="gender">Gender</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
-                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Country</label>
-                                            <select name="country" id="" class="form-control">
-                                                <option value="">UAE</option>
-                                            </select>
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Value</label>
+                                            <input type="text" name="value" class="form-control" placeholder="Value">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">

@@ -67,12 +67,17 @@
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Price</label>
-                                            <input type="text" class="form-control" id="input-text-1">
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Price">
                                         </div>
                                     </div>
                                     <div class="col-md-6" style="display: block;">
                                         <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Excess Amount</label>
-                                            <input type="text" class="form-control" id="input-text-1">
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Excess amount">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="display: block;">
+                                        <div class="form-group ui-draggable-handle" style="position: static;"><label for="input-text-1">Premia Code</label>
+                                            <input type="text" class="form-control" id="input-text-1" placeholder="Premia code">
                                         </div>
                                     </div>
                                 </div>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Excess List | Admin</title>
+    <title>Notification List | Admin</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,14 +30,14 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <!--section starts-->
-                <h1>Excess List</h1>
+                <h1>Notification List</h1>
                 <ol class="breadcrumb">
                     <li>
                         <a href="index.php">
                             <i class="livicon" data-name="home" data-size="14" data-loop="true"></i> Dashboard
                         </a>
                     </li>
-                    <li class="active">Excess List</li>
+                    <li class="active">Notification List</li>
                 </ol>
             </section>
             <!--section ends-->
@@ -50,11 +50,8 @@
                                 <div class="row Nopadding">
 									<div class="col-md-6">
 										<h3 class="caption NoMar">
-												<span>Excess List</span>
+												<span>Notification List</span>
 										</h3>
-									</div>
-									<div class="col-md-6">
-										<a href="add-excess-master.php" class="btn btn-sm btn-success pull-right">Add New</a>
 									</div>
 								</div>
                             </div>
@@ -63,25 +60,21 @@
                                     <thead class="flip-content">
                                         <tr>
                                             <th>Sr. No.</th>
-                                            <th>Vehicle Category</th>
-                                            <th class="numeric">Price Range</th>
-											<th class="numeric">Excess Amount</th>
-											<th class="numeric">Premia Code</th>
-                                            <th class="numeric">Action</th>
+                                            <th>Title </th>
+                                            <th>Description</th>
+											<th>Created</th>
+                                            <th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Category 1</td>
-                                            <td class="numeric">0 to 49999</td>
-											<td class="numeric">350</td>
-											<td class="numeric">ABC123</td>
-                                            <td class="numeric">
+                                            <td>New User Registered</td>
+                                            <td>Osama has been Successfully Registered</td>
+											<td>10/Nov/2020</td>
+                                            <td>
 											<a href="#" class="label label-success"><i class="fa fa-trash"></i> View</a>
-                                            <a href="#" class="label label-info"><i class="fa fa-trash"></i> Edit</a>
-                                            <a href="#" class="label label-danger"><i class="fa fa-trash"></i> Delete</a>
-											</td>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>

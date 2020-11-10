@@ -78,7 +78,7 @@
                                             <td class="numeric">Teacher</td>
 											<td class="numeric">30%</td>
                                             <td class="numeric">200</td>
-                                            <td class="numeric"></td>
+                                            <td class="numeric">ABC123</td>
                                             <td class="numeric">
 											<a href="#" class="label label-success"><i class="fa fa-trash"></i> View</a>
                                             <a href="#" class="label label-info"><i class="fa fa-trash"></i> Edit</a>
