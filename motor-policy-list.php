@@ -54,7 +54,7 @@
 										</h3>
 									</div>
 									<div class="col-md-6">
-										<a href="add-motor-policy.php" class="btn btn-sm btn-success pull-right">Add New</a>
+										<a href="add-motor-policy-car-detail.php" class="btn btn-sm btn-success pull-right">Add New</a>
 									</div>
 								</div>
                             </div>
